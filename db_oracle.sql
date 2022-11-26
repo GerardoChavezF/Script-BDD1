@@ -1,4 +1,3 @@
-
 -- -----------------------------------------------------
 -- Table departamento
 -- -----------------------------------------------------
@@ -433,328 +432,328 @@ IS BEGIN
 END insertar_municipio;
 /
 BEGIN
-insertar_municipio(1,'Salamá',1);
-insertar_municipio(2,'SanMiguelChicaj',1);
-insertar_municipio(3,'Rabinal',1);
-insertar_municipio(4,'Cubulco',1);
-insertar_municipio(5,'Granados',1);
-insertar_municipio(6,'SantaCruzElChol',1);
-insertar_municipio(7,'SanJerónimo',1);
-insertar_municipio(8,'Purulhá',1);
-insertar_municipio(9,'SanPedroCarchá',1);
-insertar_municipio(10,'SanJuanChamelco',1);
-insertar_municipio(11,'Lanquín',1);
-insertar_municipio(12,'SantaMaríaCahabón',1);
-insertar_municipio(13,'Chisec',1);
-insertar_municipio(14,'Chahal',1);
-insertar_municipio(15,'FrayBartolomédelasCasas',1);
-insertar_municipio(16,'SantaCatarinaLaTinta',1);
-insertar_municipio(17,'Salamá',2);
-insertar_municipio(18,'SanMiguelChicaj',2);
-insertar_municipio(19,'Rabinal',2);
-insertar_municipio(20,'Cubulco',2);
-insertar_municipio(21,'Granados',2);
-insertar_municipio(22,'SantaCruzElChol',2);
-insertar_municipio(23,'SanJerónimo',2);
-insertar_municipio(24,'Purulhá',2);
-insertar_municipio(25,'Chimaltenango',3);
-insertar_municipio(26,'SanJoséPoaquil',3);
-insertar_municipio(27,'SanMartínJilotepeque',3);
-insertar_municipio(28,'SanJuanComalapa',3);
-insertar_municipio(29,'SantaApolonia',3);
-insertar_municipio(30,'TecpánGuatemala',3);
-insertar_municipio(31,'Patzun',3);
-insertar_municipio(32,'SanMiguelPochuta',3);
-insertar_municipio(33,'Patzicia',3);
-insertar_municipio(34,'SantaCruzBalanyá',3);
-insertar_municipio(35,'Acatenango',3);
-insertar_municipio(36,'SanPedroYepocapa',3);
-insertar_municipio(37,'SanAndrésItzapa',3);
-insertar_municipio(38,'Parramos',3);
-insertar_municipio(39,'Zaragoza',3);
-insertar_municipio(40,'ElTejar',3);
-insertar_municipio(41,'Chiquimula',4);
-insertar_municipio(42,'SanJoséLaArada',4);
-insertar_municipio(43,'SanJuanHermita',4);
-insertar_municipio(44,'Jocotán',4);
-insertar_municipio(45,'Camotán',4);
-insertar_municipio(46,'Olopa',4);
-insertar_municipio(47,'Esquipulas',4);
-insertar_municipio(48,'ConcepciónLasMinas',4);
-insertar_municipio(49,'Quezaltepeque',4);
-insertar_municipio(50,'SanJacinto',4);
-insertar_municipio(51,'Ipala',4);
-insertar_municipio(52,'Flores',5);
-insertar_municipio(53,'SanJosé',5);
-insertar_municipio(54,'SanBenito',5);
-insertar_municipio(55,'SanAndrés',5);
-insertar_municipio(56,'LaLibertad',5);
-insertar_municipio(57,'SanFrancisco',5);
-insertar_municipio(58,'SantaAna',5);
-insertar_municipio(59,'Dolores',5);
-insertar_municipio(60,'SanLuis',5);
-insertar_municipio(61,'Sayaxche',5);
-insertar_municipio(62,'MelchordeMencos',5);
-insertar_municipio(63,'Poptún',5);
-insertar_municipio(64,'Guastatoya',6);
-insertar_municipio(65,'Morazán',6);
-insertar_municipio(66,'SanAgustínAcasaguastlan',6);
-insertar_municipio(67,'SanCristóbalAcasaguastlan',6);
-insertar_municipio(68,'ElJícaro',6);
-insertar_municipio(69,'Sansare',6);
-insertar_municipio(70,'Sanarate',6);
-insertar_municipio(71,'SanAntonioLaPaz',6);
-insertar_municipio(72,'SantaCruzdelQuiche',7);
-insertar_municipio(73,'Chiche',7);
-insertar_municipio(74,'Chinique',7);
-insertar_municipio(75,'Zacualpa',7);
-insertar_municipio(76,'Chajul',7);
-insertar_municipio(77,'SantoTomásChichicstenango',7);
-insertar_municipio(78,'Patzité',7);
-insertar_municipio(79,'SanAntonioIlotenango',7);
-insertar_municipio(80,'SanPedroJocopilas',7);
-insertar_municipio(81,'Cunén',7);
-insertar_municipio(82,'SanJuanCotzal',7);
-insertar_municipio(83,'Joyabaj',7);
-insertar_municipio(84,'Escuintla',8);
-insertar_municipio(85,'SantaLucíaCotzumalguapa',8);
-insertar_municipio(86,'LaDemocracia',8);
-insertar_municipio(87,'Siquinalá',8);
-insertar_municipio(88,'Masagua',8);
-insertar_municipio(89,'PuebloNuevoTiquisate',8);
-insertar_municipio(90,'LaGomera',8);
-insertar_municipio(91,'Guanagazapa',8);
-insertar_municipio(92,'PuertodeSanJosé',8);
-insertar_municipio(93,'Iztapa',8);
-insertar_municipio(94,'Palín',8);
-insertar_municipio(95,'SanVicentePacaya',8);
-insertar_municipio(96,'NuevaConcepción',8);
-insertar_municipio(97,'Guatemala',9);
-insertar_municipio(98,'SantaCatarinaPinula',9);
-insertar_municipio(99,'SanJoséPinula',9);
-insertar_municipio(100,'SanJosédelGolfo',9);
-insertar_municipio(101,'Palencia',9);
-insertar_municipio(102,'Chinautla',9);
-insertar_municipio(103,'SanPedroAyampuc',9);
-insertar_municipio(104,'Mixco',9);
-insertar_municipio(105,'SanPedroSacatepequez',9);
-insertar_municipio(106,'SanJuanSacatepequez',9);
-insertar_municipio(107,'SanRaymundo',9);
-insertar_municipio(108,'Chuarrancho',9);
-insertar_municipio(109,'Fraijanes',9);
-insertar_municipio(110,'Amatitlán',9);
-insertar_municipio(111,'VillaNueva',9);
-insertar_municipio(112,'VillaCanales',9);
-insertar_municipio(113,'SanMiguelPetapa',9);
-insertar_municipio(114,'Huehuetenango',10);
-insertar_municipio(115,'Chiantla',10);
-insertar_municipio(116,'Malacatancito',10);
-insertar_municipio(117,'Cuilco',10);
-insertar_municipio(118,'Nentón',10);
-insertar_municipio(119,'SanPedroNecta',10);
-insertar_municipio(120,'Jacaltenango',10);
-insertar_municipio(121,'SanPedroSoloma',10);
-insertar_municipio(122,'SanIldelfonsoIxtahuac´n',10);
-insertar_municipio(123,'SantaBárbara',10);
-insertar_municipio(124,'LaLibertad',10);
-insertar_municipio(125,'LaDemocracia',10);
-insertar_municipio(126,'SanMiguelAcatán',10);
-insertar_municipio(127,'SanRafaelLaIndependencia',10);
-insertar_municipio(128,'TodosSantosChuchcumatán',10);
-insertar_municipio(129,'SanJuanAtitán',10);
-insertar_municipio(130,'SantaEulalia',10);
-insertar_municipio(131,'SanMateoIxtatán',10);
-insertar_municipio(132,'Colotenango',10);
-insertar_municipio(133,'SanSebastiánHuehuetenango',10);
-insertar_municipio(134,'Tectitán',10);
-insertar_municipio(135,'ConcepciónHuista',10);
-insertar_municipio(136,'SanJuanIxcoy',10);
-insertar_municipio(137,'SanAntonioHuista',10);
-insertar_municipio(138,'SanSebastiánCoatán',10);
-insertar_municipio(139,'SantaCruzBarillas',10);
-insertar_municipio(140,'Aguacatán',10);
-insertar_municipio(141,'SanRafaelPetzal',10);
-insertar_municipio(142,'SanGasparIxchil',10);
-insertar_municipio(143,'SantiagoChimaltenango',10);
-insertar_municipio(144,'SantaAnaHuista',10);
-insertar_municipio(145,'PuertoBarrios',11);
-insertar_municipio(146,'Livingston',11);
-insertar_municipio(147,'ElEstor',11);
-insertar_municipio(148,'Morales',11);
-insertar_municipio(149,'LosAmates',11);
-insertar_municipio(150,'Jalapa',12);
-insertar_municipio(151,'SanPedroPinula',12);
-insertar_municipio(152,'SanLuisJilotepeque',12);
-insertar_municipio(153,'SanManuelChaparrón',12);
-insertar_municipio(154,'SanCarlosAlzatate',12);
-insertar_municipio(155,'Monjas',12);
-insertar_municipio(156,'Mataquescuintla',12);
-insertar_municipio(157,'Jutiapa',13);
-insertar_municipio(158,'ElProgreso',13);
-insertar_municipio(159,'SantaCatarinaMita',13);
-insertar_municipio(160,'AguaBlanca',13);
-insertar_municipio(161,'AsunciónMita',13);
-insertar_municipio(162,'Yupiltepeque',13);
-insertar_municipio(163,'Atescatempa',13);
-insertar_municipio(164,'Jerez',13);
-insertar_municipio(165,'ElAdelanto',13);
-insertar_municipio(166,'Zapotitlán',13);
-insertar_municipio(167,'Comapa',13);
-insertar_municipio(168,'Jalpatagua',13);
-insertar_municipio(169,'Conguaco',13);
-insertar_municipio(170,'Moyuta',13);
-insertar_municipio(171,'Pasaco',13);
-insertar_municipio(172,'SanJoséAcatempa',13);
-insertar_municipio(173,'Quezada',13);
-insertar_municipio(174,'Quetzaltenango',14);
-insertar_municipio(175,'Salcajá',14);
-insertar_municipio(176,'Olintepeque',14);
-insertar_municipio(177,'SanCarlosSija',14);
-insertar_municipio(178,'Sibilia',14);
-insertar_municipio(179,'Cabrican',14);
-insertar_municipio(180,'Cajola',14);
-insertar_municipio(181,'SanMiguelSiguilça',14);
-insertar_municipio(182,'SanJuanOstuncalco',14);
-insertar_municipio(183,'SanMateo',14);
-insertar_municipio(184,'ConcepciónChiquirichapa',14);
-insertar_municipio(185,'SanMartínSacatepequez',14);
-insertar_municipio(186,'Almolonga',14);
-insertar_municipio(187,'Cantel',14);
-insertar_municipio(188,'Huitán',14);
-insertar_municipio(189,'Zunil',14);
-insertar_municipio(190,'Colomba',14);
-insertar_municipio(191,'SanFranciscoLaUnión',14);
-insertar_municipio(192,'ElPalmar',14);
-insertar_municipio(193,'Coatepeque',14);
-insertar_municipio(194,'Génova',14);
-insertar_municipio(195,'FloresCostaCuca',14);
-insertar_municipio(196,'LaEsperanza',14);
-insertar_municipio(197,'PalestinadelosAltos',14);
-insertar_municipio(198,'Retalhuelu',15);
-insertar_municipio(199,'SanSebastián',15);
-insertar_municipio(200,'SantaCruzMulúa',15);
-insertar_municipio(201,'SanMartínZapotitlán',15);
-insertar_municipio(202,'SanFelipeRetalhuleu',15);
-insertar_municipio(203,'SanAndrésVillaSeca',15);
-insertar_municipio(204,'Champerico',15);
-insertar_municipio(205,'NuevoSanCarlos',15);
-insertar_municipio(206,'ElAsintal',15);
-insertar_municipio(207,'AntiguaGuatemala',16);
-insertar_municipio(208,'Jocotenango',16);
-insertar_municipio(209,'Pastores',16);
-insertar_municipio(210,'Sumpango',16);
-insertar_municipio(211,'SantoDomingoXenacoj',16);
-insertar_municipio(212,'SantiagoSacatepequez',16);
-insertar_municipio(213,'SanBartoloméMilpasAltas',16);
-insertar_municipio(214,'SanLucasSacatepequez',16);
-insertar_municipio(215,'SantaLucíaMilpasAltas',16);
-insertar_municipio(216,'MagdalenaMilpasAltas',16);
-insertar_municipio(217,'SantaMaríadeJesús',16);
-insertar_municipio(218,'CiudadVieja',16);
-insertar_municipio(219,'SanMiguelDueñas',16);
-insertar_municipio(220,'SanJuanAlotenango',16);
-insertar_municipio(221,'SanAntonioAguasCalientes',16);
-insertar_municipio(222,'SantaCatarinaBarahona',16);
-insertar_municipio(223,'SanMarcos',17);
-insertar_municipio(224,'SanPedroSacatepéquez',17);
-insertar_municipio(225,'Comitancillo',17);
-insertar_municipio(226,'SanAntonioSacatepéquez',17);
-insertar_municipio(227,'SanMiguelIxtahuacan',17);
-insertar_municipio(228,'ConcepciónTutuapa',17);
-insertar_municipio(229,'Tacaná',17);
-insertar_municipio(230,'Sibinal',17);
-insertar_municipio(231,'Tajumulco',17);
-insertar_municipio(232,'Tejutla',17);
-insertar_municipio(233,'SanRafaelPiédelaCuesta',17);
-insertar_municipio(234,'NuevoProgreso',17);
-insertar_municipio(235,'ElTumbador',17);
-insertar_municipio(236,'SanJoséElRodeo',17);
-insertar_municipio(237,'Malacatán',17);
-insertar_municipio(238,'Catarina',17);
-insertar_municipio(239,'Ayutla',17);
-insertar_municipio(240,'Ocos',17);
-insertar_municipio(241,'SanPablo',17);
-insertar_municipio(242,'ElQuetzal',17);
-insertar_municipio(243,'LaReforma',17);
-insertar_municipio(244,'Pajapita',17);
-insertar_municipio(245,'Ixchiguan',17);
-insertar_municipio(246,'SanJoséOjetenán',17);
-insertar_municipio(247,'SanCristóbalCucho',17);
-insertar_municipio(248,'Sipacapa',17);
-insertar_municipio(249,'EsquipulasPaloGordo',17);
-insertar_municipio(250,'RíoBlanco',17);
-insertar_municipio(251,'SanLorenzo',17);
-insertar_municipio(252,'Cuilapa',18);
-insertar_municipio(253,'Berberena',18);
-insertar_municipio(254,'SanRosadeLima',18);
-insertar_municipio(255,'Casillas',18);
-insertar_municipio(256,'SanRafaelLasFlores',18);
-insertar_municipio(257,'Oratorio',18);
-insertar_municipio(258,'SanJuanTEcuaco',18);
-insertar_municipio(259,'Chiquimulilla',18);
-insertar_municipio(260,'Taxisco',18);
-insertar_municipio(261,'SantaMaríaIxhuatan',18);
-insertar_municipio(262,'Guazacapán',18);
-insertar_municipio(263,'SantaCruzNaranjo',18);
-insertar_municipio(264,'PuebloNuevoViñas',18);
-insertar_municipio(265,'NuevaSantaRosa',18);
-insertar_municipio(266,'Sololá',19);
-insertar_municipio(267,'SanJoséChacaya',19);
-insertar_municipio(268,'SantaMaríaVisitación',19);
-insertar_municipio(269,'SantaLucíaUtatlán',19);
-insertar_municipio(270,'Nahualá',19);
-insertar_municipio(271,'SantaCatarinaIxtahuacán',19);
-insertar_municipio(272,'SantaClaraLaLaguna',19);
-insertar_municipio(273,'Concepción',19);
-insertar_municipio(274,'SanAndrésSemetabaj',19);
-insertar_municipio(275,'Panajachel',19);
-insertar_municipio(276,'SantaCatarinaPalopó',19);
-insertar_municipio(277,'SanAntonioPalopó',19);
-insertar_municipio(278,'SanLucasTolimán',19);
-insertar_municipio(279,'SantaCruzLaLaguna',19);
-insertar_municipio(280,'SnaPabloLaLaguna',19);
-insertar_municipio(281,'SanMarcosLaLaguna',19);
-insertar_municipio(282,'SanJuanLaLaguna',19);
-insertar_municipio(283,'SanPedroLaLaguna',19);
-insertar_municipio(284,'SantiagoAtitlán',19);
-insertar_municipio(285,'Mazatenango',20);
-insertar_municipio(286,'Cuyotenango',20);
-insertar_municipio(287,'SanFranciscoZapotitlán',20);
-insertar_municipio(288,'SanBernardino',20);
-insertar_municipio(289,'SanJoséElÍdolo',20);
-insertar_municipio(290,'SantoDomingoSuchitepequez',20);
-insertar_municipio(291,'SanLorenzo',20);
-insertar_municipio(292,'Samayac',20);
-insertar_municipio(293,'SanPabloJocopilas',20);
-insertar_municipio(294,'SanAntonioSuchitepéquez',20);
-insertar_municipio(295,'SanMiguelPanán',20);
-insertar_municipio(296,'SanGabriel',20);
-insertar_municipio(297,'Chicacao',20);
-insertar_municipio(298,'Patulul',20);
-insertar_municipio(299,'SantaBárbara',20);
-insertar_municipio(300,'SanJuanBautista',20);
-insertar_municipio(301,'SantoTomásLaUnión',20);
-insertar_municipio(302,'Zunilito',20);
-insertar_municipio(303,'PuebloNuevoSuchitepéquez',20);
-insertar_municipio(304,'RíoBravo',20);
-insertar_municipio(305,'Totonicapán',21);
-insertar_municipio(306,'SanCristóbalTotonicapán',21);
-insertar_municipio(307,'SanFranciscoElAlto',21);
-insertar_municipio(308,'SanAndrésXecul',21);
-insertar_municipio(309,'Momostenango',21);
-insertar_municipio(310,'SantaMaríaChiquimula',21);
-insertar_municipio(311,'SantaLucíaLaReforma',21);
-insertar_municipio(312,'SanBartoloAguasCalientes',21);
-insertar_municipio(313,'Zacapa',21);
-insertar_municipio(314,'Estanzuela',21);
-insertar_municipio(315,'RíoHondo',21);
-insertar_municipio(316,'gualán',21);
-insertar_municipio(317,'Teculután',21);
-insertar_municipio(318,'Usumatlán',21);
-insertar_municipio(319,'Cabañas',21);
-insertar_municipio(320,'SanDiego',21);
-insertar_municipio(321,'LaUnión',21);
-insertar_municipio(322,'Huite',21);
+insertar_municipio (1,'Salamá',1);
+insertar_municipio (2,'San Miguel Chicaj',1);
+insertar_municipio (3,'Rabinal',1);
+insertar_municipio (4,'Cubulco',1);
+insertar_municipio (5,'Granados',1);
+insertar_municipio (6,'Santa Cruz El Chol',1);
+insertar_municipio (7,'San Jerónimo',1);
+insertar_municipio (8,'Purulhá',1);
+insertar_municipio (9,'San Pedro Carchá',1);
+insertar_municipio (10,'SanJuan Chamelco',1);
+insertar_municipio (11,'Lanquín',1);
+insertar_municipio (12,'Santa María Cahabón',1);
+insertar_municipio (13,'Chisec',1);
+insertar_municipio (14,'Chahal',1);
+insertar_municipio (15,'Fray Bartolomé de las Casas',1);
+insertar_municipio (16,'Santa Catarina La Tinta',1);
+insertar_municipio (17,'Salamá',2);
+insertar_municipio (18,'San Miguel Chicaj',2);
+insertar_municipio (19,'Rabinal',2);
+insertar_municipio (20,'Cubulco',2);
+insertar_municipio (21,'Granados',2);
+insertar_municipio (22,'Santa Cruz El Chol',2);
+insertar_municipio (23,'San Jerónimo',2);
+insertar_municipio (24,'Purulhá',2);
+insertar_municipio (25,'Chimaltenango',3);
+insertar_municipio (26,'San José Poaquil',3);
+insertar_municipio (27,'San Martín Jilotepeque',3);
+insertar_municipio (28,'San Juan Comalapa',3);
+insertar_municipio (29,'Santa Apolonia',3);
+insertar_municipio (30,'Tecpán Guatemala',3);
+insertar_municipio (31,'Patzun',3);
+insertar_municipio (32,'San Miguel Pochuta',3);
+insertar_municipio (33,'Patzicia',3);
+insertar_municipio (34,'Santa Cruz Balanyá',3);
+insertar_municipio (35,'Acatenango',3);
+insertar_municipio (36,'San Pedro Yepocapa',3);
+insertar_municipio (37,'San Andrés Itzapa',3);
+insertar_municipio (38,'Parramos',3);
+insertar_municipio (39,'Zaragoza',3);
+insertar_municipio (40,'El Tejar',3);
+insertar_municipio (41,'Chiquimula',4);
+insertar_municipio (42,'San José La Arada',4);
+insertar_municipio (43,'San Juan Hermita',4);
+insertar_municipio (44,'Jocotán',4);
+insertar_municipio (45,'Camotán',4);
+insertar_municipio (46,'Olopa',4);
+insertar_municipio (47,'Esquipulas',4);
+insertar_municipio (48,'Concepción Las Minas',4);
+insertar_municipio (49,'Quezaltepeque',4);
+insertar_municipio (50,'San Jacinto',4);
+insertar_municipio (51,'Ipala',4);
+insertar_municipio (52,'Flores',5);
+insertar_municipio (53,'San José',5);
+insertar_municipio (54,'San Benito',5);
+insertar_municipio (55,'San Andrés',5);
+insertar_municipio (56,'La Libertad',5);
+insertar_municipio (57,'San Francisco',5);
+insertar_municipio (58,'Santa Ana',5);
+insertar_municipio (59,'Dolores',5);
+insertar_municipio (60,'San Luis',5);
+insertar_municipio (61,'Sayaxche',5);
+insertar_municipio (62,'Melchor de Mencos',5);
+insertar_municipio (63,'Poptún',5);
+insertar_municipio (64,'Guastatoya',6);
+insertar_municipio (65,'Morazán',6);
+insertar_municipio (66,'San Agustín Acasaguastlan',6);
+insertar_municipio (67,'San Cristóbal Acasaguastlan',6);
+insertar_municipio (68,'El Jícaro',6);
+insertar_municipio (69,'Sansare',6);
+insertar_municipio (70,'Sanarate',6);
+insertar_municipio (71,'San Antonio La Paz',6);
+insertar_municipio (72,'Santa Cruz del Quiche',7);
+insertar_municipio (73,'Chiche',7);
+insertar_municipio (74,'Chinique',7);
+insertar_municipio (75,'Zacualpa',7);
+insertar_municipio (76,'Chajul',7);
+insertar_municipio (77,'Santo Tomás Chichicstenango',7);
+insertar_municipio (78,'Patzité',7);
+insertar_municipio (79,'San Antonio Ilotenango',7);
+insertar_municipio (80,'San Pedro Jocopilas',7);
+insertar_municipio (81,'Cunén',7);
+insertar_municipio (82,'San Juan Cotzal',7);
+insertar_municipio (83,'Joyabaj',7);
+insertar_municipio (84,'Escuintla',8);
+insertar_municipio (85,'Santa Lucía Cotzumalguapa',8);
+insertar_municipio (86,'La Democracia',8);
+insertar_municipio (87,'Siquinalá',8);
+insertar_municipio (88,'Masagua',8);
+insertar_municipio (89,'Pueblo Nuevo Tiquisate',8);
+insertar_municipio (90,'La Gomera',8);
+insertar_municipio (91,'Guanagazapa',8);
+insertar_municipio (92,'Puerto de San José',8);
+insertar_municipio (93,'Iztapa',8);
+insertar_municipio (94,'Palín',8);
+insertar_municipio (95,'San Vicente Pacaya',8);
+insertar_municipio (96,'Nueva Concepción',8);
+insertar_municipio (97,'Guatemala',9);
+insertar_municipio (98,'Santa Catarina Pinula',9);
+insertar_municipio (99,'San José Pinula',9);
+insertar_municipio (100,'San José del Golfo',9);
+insertar_municipio (101,'Palencia',9);
+insertar_municipio (102,'Chinautla',9);
+insertar_municipio (103,'San Pedro Ayampuc',9);
+insertar_municipio (104,'Mixco',9);
+insertar_municipio (105,'San Pedro Sacatepequez',9);
+insertar_municipio (106,'San Juan Sacatepequez',9);
+insertar_municipio (107,'San Raymundo',9);
+insertar_municipio (108,'Chuarrancho',9);
+insertar_municipio (109,'Fraijanes',9);
+insertar_municipio (110,'Amatitlán',9);
+insertar_municipio (111,'Villa Nueva',9);
+insertar_municipio (112,'Villa Canales',9);
+insertar_municipio (113,'San Miguel Petapa',9);
+insertar_municipio (114,'Huehuetenango',10);
+insertar_municipio (115,'Chiantla',10);
+insertar_municipio (116,'Malacatancito',10);
+insertar_municipio (117,'Cuilco',10);
+insertar_municipio (118,'Nentón',10);
+insertar_municipio (119,'San Pedro Necta',10);
+insertar_municipio (120,'Jacaltenango',10);
+insertar_municipio (121,'San Pedro Soloma',10);
+insertar_municipio (122,'San Ildelfonso Ixtahuac´n',10);
+insertar_municipio (123,'Santa Bárbara',10);
+insertar_municipio (124,'La Libertad',10);
+insertar_municipio (125,'La Democracia',10);
+insertar_municipio (126,'San Miguel Acatán',10);
+insertar_municipio (127,'San Rafael La Independencia',10);
+insertar_municipio (128,'Todos Santos Chuchcumatán',10);
+insertar_municipio (129,'San Juan Atitán',10);
+insertar_municipio (130,'Santa Eulalia',10);
+insertar_municipio (131,'San Mateo Ixtatán',10);
+insertar_municipio (132,'Colotenango',10);
+insertar_municipio (133,'San Sebastián Huehuetenango',10);
+insertar_municipio (134,'Tectitán',10);
+insertar_municipio (135,'Concepción Huista',10);
+insertar_municipio (136,'San Juan Ixcoy',10);
+insertar_municipio (137,'San Antonio Huista',10);
+insertar_municipio (138,'San Sebastián Coatán',10);
+insertar_municipio (139,'Santa Cruz Barillas',10);
+insertar_municipio (140,'Aguacatán',10);
+insertar_municipio (141,'San Rafael Petzal',10);
+insertar_municipio (142,'San Gaspar Ixchil',10);
+insertar_municipio (143,'Santiago Chimaltenango',10);
+insertar_municipio (144,'Santa Ana Huista',10);
+insertar_municipio (145,'Puerto Barrios',11);
+insertar_municipio (146,'Livingston',11);
+insertar_municipio (147,'El Estor',11);
+insertar_municipio (148,'Morales',11);
+insertar_municipio (149,'Los Amates',11);
+insertar_municipio (150,'Jalapa',12);
+insertar_municipio (151,'San Pedro Pinula',12);
+insertar_municipio (152,'San Luis Jilotepeque',12);
+insertar_municipio (153,'San Manuel Chaparrón',12);
+insertar_municipio (154,'San Carlos Alzatate',12);
+insertar_municipio (155,'Monjas',12);
+insertar_municipio (156,'Mataquescuintla',12);
+insertar_municipio (157,'Jutiapa',13);
+insertar_municipio (158,'El Progreso',13);
+insertar_municipio (159,'Santa Catarina Mita',13);
+insertar_municipio (160,'Agua Blanca',13);
+insertar_municipio (161,'Asunción Mita',13);
+insertar_municipio (162,'Yupiltepeque',13);
+insertar_municipio (163,'Atescatempa',13);
+insertar_municipio (164,'Jerez',13);
+insertar_municipio (165,'El Adelanto',13);
+insertar_municipio (166,'Zapotitlán',13);
+insertar_municipio (167,'Comapa',13);
+insertar_municipio (168,'Jalpatagua',13);
+insertar_municipio (169,'Conguaco',13);
+insertar_municipio (170,'Moyuta',13);
+insertar_municipio (171,'Pasaco',13);
+insertar_municipio (172,'San José Acatempa',13);
+insertar_municipio (173,'Quezada',13);
+insertar_municipio (174,'Quetzaltenango',14);
+insertar_municipio (175,'Salcajá',14);
+insertar_municipio (176,'Olintepeque',14);
+insertar_municipio (177,'San Carlos Sija',14);
+insertar_municipio (178,'Sibilia',14);
+insertar_municipio (179,'Cabrican',14);
+insertar_municipio (180,'Cajola',14);
+insertar_municipio (181,'San Miguel Siguilça',14);
+insertar_municipio (182,'San Juan Ostuncalco',14);
+insertar_municipio (183,'San Mateo',14);
+insertar_municipio (184,'Concepción Chiquirichapa',14);
+insertar_municipio (185,'San Martín Sacatepequez',14);
+insertar_municipio (186,'Almolonga',14);
+insertar_municipio (187,'Cantel',14);
+insertar_municipio (188,'Huitán',14);
+insertar_municipio (189,'Zunil',14);
+insertar_municipio (190,'Colomba',14);
+insertar_municipio (191,'San Francisco La Unión',14);
+insertar_municipio (192,'El Palmar',14);
+insertar_municipio (193,'Coatepeque',14);
+insertar_municipio (194,'Génova',14);
+insertar_municipio (195,'Flores Costa Cuca',14);
+insertar_municipio (196,'La Esperanza',14);
+insertar_municipio (197,'Palestina de los Altos',14);
+insertar_municipio (198,'Retalhuelu',15);
+insertar_municipio (199,'San Sebastián',15);
+insertar_municipio (200,'Santa Cruz Mulúa',15);
+insertar_municipio (201,'San Martín Zapotitlán',15);
+insertar_municipio (202,'San Felipe Retalhuleu',15);
+insertar_municipio (203,'San Andrés Villa Seca',15);
+insertar_municipio (204,'Champerico',15);
+insertar_municipio (205,'Nuevo San Carlos',15);
+insertar_municipio (206,'El Asintal',15);
+insertar_municipio (207,'Antigua Guatemala',16);
+insertar_municipio (208,'Jocotenango',16);
+insertar_municipio (209,'Pastores',16);
+insertar_municipio (210,'Sumpango',16);
+insertar_municipio (211,'Santo Domingo Xenacoj',16);
+insertar_municipio (212,'Santiago Sacatepequez',16);
+insertar_municipio (213,'San Bartolomé Milpas Altas',16);
+insertar_municipio (214,'San Lucas Sacatepequez',16);
+insertar_municipio (215,'Santa Lucía Milpas Altas',16);
+insertar_municipio (216,'Magdalena Milpas Altas',16);
+insertar_municipio (217,'Santa María de Jesús',16);
+insertar_municipio (218,'Ciudad Vieja',16);
+insertar_municipio (219,'San Miguel Dueñas',16);
+insertar_municipio (220,'San Juan Alotenango',16);
+insertar_municipio (221,'San Antonio Aguas Calientes',16);
+insertar_municipio (222,'Santa Catarina Barahona',16);
+insertar_municipio (223,'San Marcos',17);
+insertar_municipio (224,'San Pedro Sacatepéquez',17);
+insertar_municipio (225,'Comitancillo',17);
+insertar_municipio (226,'San Antonio Sacatepéquez',17);
+insertar_municipio (227,'San Miguel Ixtahuacan',17);
+insertar_municipio (228,'Concepción Tutuapa',17);
+insertar_municipio (229,'Tacaná',17);
+insertar_municipio (230,'Sibinal',17);
+insertar_municipio (231,'Tajumulco',17);
+insertar_municipio (232,'Tejutla',17);
+insertar_municipio (233,'San Rafael Pié de la Cuesta',17);
+insertar_municipio (234,'Nuevo Progreso',17);
+insertar_municipio (235,'El Tumbador',17);
+insertar_municipio (236,'San José El Rodeo',17);
+insertar_municipio (237,'Malacatán',17);
+insertar_municipio (238,'Catarina',17);
+insertar_municipio (239,'Ayutla',17);
+insertar_municipio (240,'Ocos',17);
+insertar_municipio (241,'San Pablo',17);
+insertar_municipio (242,'El Quetzal',17);
+insertar_municipio (243,'La Reforma',17);
+insertar_municipio (244,'Pajapita',17);
+insertar_municipio (245,'Ixchiguan',17);
+insertar_municipio (246,'San José Ojetenán',17);
+insertar_municipio (247,'San Cristóbal Cucho',17);
+insertar_municipio (248,'Sipacapa',17);
+insertar_municipio (249,'Esquipulas Palo Gordo',17);
+insertar_municipio (250,'Río Blanco',17);
+insertar_municipio (251,'San Lorenzo',17);
+insertar_municipio (252,'Cuilapa',18);
+insertar_municipio (253,'Berberena',18);
+insertar_municipio (254,'San Rosa de Lima',18);
+insertar_municipio (255,'Casillas',18);
+insertar_municipio (256,'San Rafael Las Flores',18);
+insertar_municipio (257,'Oratorio',18);
+insertar_municipio (258,'San Juan TEcuaco',18);
+insertar_municipio (259,'Chiquimulilla',18);
+insertar_municipio (260,'Taxisco',18);
+insertar_municipio (261,'Santa María Ixhuatan',18);
+insertar_municipio (262,'Guazacapán',18);
+insertar_municipio (263,'Santa Cruz Naranjo',18);
+insertar_municipio (264,'Pueblo Nuevo Viñas',18);
+insertar_municipio (265,'Nueva Santa Rosa',18);
+insertar_municipio (266,'Sololá',19);
+insertar_municipio (267,'San José Chacaya',19);
+insertar_municipio (268,'Santa María Visitación',19);
+insertar_municipio (269,'Santa Lucía Utatlán',19);
+insertar_municipio (270,'Nahualá',19);
+insertar_municipio (271,'Santa Catarina Ixtahuacán',19);
+insertar_municipio (272,'Santa Clara La Laguna',19);
+insertar_municipio (273,'Concepción',19);
+insertar_municipio (274,'San Andrés Semetabaj',19);
+insertar_municipio (275,'Panajachel',19);
+insertar_municipio (276,'Santa Catarina Palopó',19);
+insertar_municipio (277,'San Antonio Palopó',19);
+insertar_municipio (278,'San Lucas Tolimán',19);
+insertar_municipio (279,'Santa Cruz La Laguna',19);
+insertar_municipio (280,'Sna Pablo La Laguna',19);
+insertar_municipio (281,'San Marcos La Laguna',19);
+insertar_municipio (282,'San Juan La Laguna',19);
+insertar_municipio (283,'San Pedro La Laguna',19);
+insertar_municipio (284,'Santiago Atitlán',19);
+insertar_municipio (285,'Mazatenango',20);
+insertar_municipio (286,'Cuyotenango',20);
+insertar_municipio (287,'San Francisco Zapotitlán',20);
+insertar_municipio (288,'San Bernardino',20);
+insertar_municipio (289,'San José El Ídolo',20);
+insertar_municipio (290,'Santo Domingo Suchitepequez',20);
+insertar_municipio (291,'San Lorenzo',20);
+insertar_municipio (292,'Samayac',20);
+insertar_municipio (293,'San Pablo Jocopilas',20);
+insertar_municipio (294,'San Antonio Suchitepéquez',20);
+insertar_municipio (295,'San Miguel Panán',20);
+insertar_municipio (296,'San Gabriel',20);
+insertar_municipio (297,'Chicacao',20);
+insertar_municipio (298,'Patulul',20);
+insertar_municipio (299,'Santa Bárbara',20);
+insertar_municipio (300,'San Juan Bautista',20);
+insertar_municipio (301,'Santo Tomás La Unión',20);
+insertar_municipio (302,'Zunilito',20);
+insertar_municipio (303,'Pueblo Nuevo Suchitepéquez',20);
+insertar_municipio (304,'Río Bravo',20);
+insertar_municipio (305,'Totonicapán',21);
+insertar_municipio (306,'San Cristóbal Totonicapán',21);
+insertar_municipio (307,'San Francisco El Alto',21);
+insertar_municipio (308,'San Andrés Xecul',21);
+insertar_municipio (309,'Momostenango',21);
+insertar_municipio (310,'Santa María Chiquimula',21);
+insertar_municipio (311,'Santa Lucía La Reforma',21);
+insertar_municipio (312,'San Bartolo Aguas Calientes',21);
+insertar_municipio (313,'Zacapa',22);
+insertar_municipio (314,'Estanzuela',22);
+insertar_municipio (315,'Río Hondo',22);
+insertar_municipio (316,'gualán',22);
+insertar_municipio (317,'Teculután',22);
+insertar_municipio (318,'Usumatlán',22);
+insertar_municipio (319,'Cabañas',22);
+insertar_municipio (320,'San Diego',22);
+insertar_municipio (321,'La Unión',22);
+insertar_municipio (322,'Huite',22);
 END;
 /
 -- Rol
@@ -869,9 +868,88 @@ BEGIN
 END;
 /
 
+-- Tipo menu rol
+CREATE OR REPLACE PROCEDURE insertar_menu_rol
+(
+    id_menu_rol NUMBER,
+    menu_id_menu NUMBER,
+    rol_id_rol NUMBER
+)
+IS BEGIN
+    INSERT INTO menu_rol
+    VALUES (id_menu_rol, menu_id_menu, rol_id_rol);
+    COMMIT;
+END insertar_menu_rol;
+/
+BEGIN
+    insertar_menu_rol(1, 1, 1);
+    insertar_menu_rol(2, 2, 1);
+    insertar_menu_rol(3, 3, 1);
+    insertar_menu_rol(4, 4, 1);
+    insertar_menu_rol(5, 5, 1);
+    insertar_menu_rol(6, 6, 1);
+    insertar_menu_rol(7, 7, 1);
+    insertar_menu_rol(8, 8, 1);
+    insertar_menu_rol(9, 9, 1);
+    insertar_menu_rol(10, 10, 1);
+    insertar_menu_rol(11, 1, 2);
+    insertar_menu_rol(12, 2, 2);
+    insertar_menu_rol(13, 3, 2);
+    insertar_menu_rol(14, 4, 2);
+    insertar_menu_rol(15, 5, 2);
+    insertar_menu_rol(16, 7, 2);
+    insertar_menu_rol(17, 9, 2);
+    insertar_menu_rol(18, 10, 2);
+    insertar_menu_rol(19, 11, 2);
+    insertar_menu_rol(20,1,1);
+    
+END;
+/
 
+-- Tipo horario
+CREATE OR REPLACE PROCEDURE insertar_horario
+(
+    id_horario NUMBER,
+    horario DATE
+)
+IS BEGIN
+    INSERT INTO horario
+    VALUES (id_horario, horario);
+    COMMIT;
+END insertar_horario;
+/
+BEGIN
+    insertar_horario(1, TO_DATE('2022/10/28 08:00:00', 'yyyy/mm/dd hh24:mi:ss'));
+    insertar_horario(2, TO_DATE('2022/10/28 09:00:00', 'yyyy/mm/dd hh24:mi:ss'));
+    insertar_horario(3, TO_DATE('2022/10/28 10:00:00', 'yyyy/mm/dd hh24:mi:ss'));
+    insertar_horario(4, TO_DATE('2022/10/28 11:00:00', 'yyyy/mm/dd hh24:mi:ss'));
+    insertar_horario(5, TO_DATE('2022/10/28 12:00:00', 'yyyy/mm/dd hh24:mi:ss'));
+    insertar_horario(6, TO_DATE('2022/10/28 13:00:00', 'yyyy/mm/dd hh24:mi:ss'));
+    insertar_horario(7, TO_DATE('2022/10/28 14:00:00', 'yyyy/mm/dd hh24:mi:ss'));
+    insertar_horario(8, TO_DATE('2022/10/28 15:00:00', 'yyyy/mm/dd hh24:mi:ss'));
+    insertar_horario(9, TO_DATE('2022/10/28 16:00:00', 'yyyy/mm/dd hh24:mi:ss'));
+    insertar_horario(10, TO_DATE('2022/10/28 17:00:00', 'yyyy/mm/dd hh24:mi:ss'));
+   
+END;
+/
 
-
+-- Tipo tipo pago
+CREATE OR REPLACE PROCEDURE insertar_tipo_pago
+(
+    id_tipo_pago NUMBER,
+    tipo_pago VARCHAR2
+)
+IS BEGIN
+    INSERT INTO tipo_pago
+    VALUES (id_tipo_pago, tipo_pago);
+    COMMIT;
+END insertar_tipo_pago;
+/
+BEGIN
+    insertar_tipo_pago(1, 'Efectivo');
+    insertar_tipo_pago(2, 'Tarjeta');
+END;
+/
 -------------------------------------------------------TRIGGERS-------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------
 
@@ -992,20 +1070,16 @@ ON usuario
     BEGIN
         IF updating('password') THEN
             INSERT INTO bitacora(id_bitacora, tabla, valor_anterior, valor_nuevo, fecha, accion, usuario) 
-            VALUES(SQC_BITACORA.NEXTVAL, 'USUARIO',             
-            (JSON_OBJECT (
-            KEY 'password' IS :OLD.password
-            )), 
+            VALUES(SQC_BITACORA.NEXTVAL, 'USUARIO',
+            NULL, 
             (JSON_OBJECT (
             KEY 'password' IS :NEW.password
             )), systimestamp, 'UPDATE', user);
         END IF;
         IF updating('usuario') THEN
             INSERT INTO bitacora(id_bitacora, tabla, valor_anterior, valor_nuevo, fecha, accion, usuario) 
-            VALUES(SQC_BITACORA.NEXTVAL, 'USUARIO',             
-            (JSON_OBJECT (
-            KEY 'usuario' IS :OLD.usuario
-            )), 
+            VALUES(SQC_BITACORA.NEXTVAL, 'USUARIO',
+            NULL, 
             (JSON_OBJECT (
             KEY 'usuario' IS :NEW.usuario
             )), systimestamp, 'UPDATE', user);
@@ -1524,5 +1598,3 @@ ON tipo_identidad
     END;
 
 /
-
-
